@@ -49,7 +49,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := mt6785
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := rosemary,secret,maltose
+#TARGET_OTA_ASSERT_DEVICE := rosemary,secret,maltose
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
