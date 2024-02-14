@@ -52,6 +52,13 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.rosemary
+
+# Copy the vibrator into recovery image
+PRODUCT_COPY_FILES += \
+	$(OUT_DIR)/target/product/rosemary/system/bin/hw/android.hardware.vibrator-service.rosemary:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hw/android.hardware.vibrator-service.rosemary
+
 # Additional Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
     libkeymaster4 \
