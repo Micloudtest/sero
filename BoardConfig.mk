@@ -21,10 +21,6 @@ AB_OTA_PARTITIONS += \
     vbmeta_system
 BOARD_USES_RECOVERY_AS_BOOT := true
 
-# Power
-ENABLE_CPUSETS := true
-ENABLE_SCHEDBOOST := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
