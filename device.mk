@@ -42,6 +42,11 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
+
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
