@@ -170,6 +170,7 @@ TW_INCLUDE_FB2PNG := true
 # TW Version
 TW_DEVICE_VERSION := Rosemary_Tapin™
 TW_LOOP_DEVICE_ERRORS_TO_LOG := true
+TW_IGNORE_LOGICAL_MOUNT_ERRORS := true
 
 # This device does not support fastboot boot, do *NOT* remove!
 TW_NO_FASTBOOT_BOOT := true
