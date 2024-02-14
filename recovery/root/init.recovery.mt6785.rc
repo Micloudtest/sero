@@ -38,7 +38,7 @@ service mtk.plpath.utils.link /system/bin/mtk_plpath_utils_ota
     oneshot
     seclabel u:r:recovery:s0
 
-service vibrator-rosemary /system/bin/hw/android.hardware.vibrator-service.rosemary
+service vibratorfeature-hal-service /system/bin/hw/android.hardware.vibrator-service.mediatek
     user root
     group root
     class hal
@@ -79,8 +79,11 @@ on property:twrp.all.users.decrypted=true
     stop keymaster-4-1-beanpod 
     stop gatekeeper-1-0
 
+# Haptic feedback 
+on property:twrp.modules.loaded=true 
+    start vibratorfeature-hal-service
+
 on boot
-    start vibrator-rosemary
     start boot-hal-1-2
     start health-hal-2-1
 
