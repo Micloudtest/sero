@@ -9,9 +9,6 @@ DEVICE_PATH := device/xiaomi/rosemary
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# Allow putting ELF in PRODUCT_COPY_FILES (required by vibrator)
-BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
@@ -124,9 +121,6 @@ TARGET_USES_UEFI := true
 
 # VNDK Treble
 BOARD_VNDK_VERSION := current
-
-# Vibrator Libraries
-TW_SUPPORT_INPUT_AIDL_HAPTICS := true  
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
