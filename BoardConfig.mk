@@ -109,11 +109,12 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 500
 
-# StatusBar
-TW_STATUS_ICONS_ALIGN := center
-TW_CUSTOM_CPU_POS := "300"
-TW_CUSTOM_CLOCK_POS := "70"
-TW_CUSTOM_BATTERY_POS := "790"
+ifneq ($(OF_HIDE_NOTCH),1)
+  # Configure Status bar icons for regular TWRP builds only
+    TW_STATUS_ICONS_ALIGN := center
+    TW_CUSTOM_CLOCK_POS := 40
+    TW_CUSTOM_CPU_POS := 605
+endif
 
 # UEFI
 TARGET_USES_UEFI := true
