@@ -112,8 +112,8 @@ TW_DEFAULT_BRIGHTNESS := 500
 ifneq ($(OF_HIDE_NOTCH),1)
   # Configure Status bar icons for regular TWRP builds only
     TW_STATUS_ICONS_ALIGN := center
-    TW_CUSTOM_CLOCK_POS := 70
-    TW_CUSTOM_CPU_POS := 605
+    TW_CUSTOM_CLOCK_POS := "70"
+    TW_CUSTOM_CPU_POS := "300"
 endif
 
 # UEFI
@@ -168,7 +168,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 TW_INCLUDE_FB2PNG := true
 
 # TW Version
-TW_DEVICE_VERSION := Tapin™
+TW_DEVICE_VERSION := Rosemary_Tapin™
 TW_LOOP_DEVICE_ERRORS_TO_LOG := true
 
 # This device does not support fastboot boot, do *NOT* remove!
