@@ -170,11 +170,17 @@ TW_SCREEN_BLANK_ON_BOOT := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TW_EXCLUDE_APEX := true
 RECOVERY_SDCARD_ON_DATA := true
-TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
 
 # USB Configuration
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
+
+# TW Screenshot
+TW_INCLUDE_FB2PNG := true
+
+# TW Version
+TW_DEVICE_VERSION := Tapin™
+TW_LOOP_DEVICE_ERRORS_TO_LOG := true
 
 # This device does not support fastboot boot, do *NOT* remove!
 TW_NO_FASTBOOT_BOOT := true
