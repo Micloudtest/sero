@@ -38,12 +38,6 @@ service mtk.plpath.utils.link /system/bin/mtk_plpath_utils_ota
     oneshot
     seclabel u:r:recovery:s0
 
-service vibratorfeature-hal-service /system/bin/hw/android.hardware.vibrator-service.mediatek
-    user root
-    group root
-    class hal
-    seclabel u:r:recovery:s0
-
 service gatekeeper-1-0 /system/bin/android.hardware.gatekeeper@1.0-service
     interface android.hardware.gatekeeper@1.0::IGatekeeper default
     user root
@@ -78,10 +72,6 @@ on property:twrp.all.users.decrypted=true
     stop teei_daemon
     stop keymaster-4-1-beanpod 
     stop gatekeeper-1-0
-
-# Haptic feedback 
-    # on property:twrp.modules.loaded=true 
-    # start vibratorfeature-hal-service
 
 on boot
     start boot-hal-1-2
