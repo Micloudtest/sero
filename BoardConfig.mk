@@ -172,7 +172,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 TW_INCLUDE_FB2PNG := true
 
 # Config
-TW_DEVICE_VERSION := Rosemary_Tapin™
+TW_DEVICE_VERSION := Poco_M5s-Tapin™
 
 # Removes the loop block errors after flashing ZIPs (Workaround) 
 TW_LOOP_DEVICE_ERRORS_TO_LOG := true
