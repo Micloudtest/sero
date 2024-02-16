@@ -76,7 +76,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Dynamic Partitions
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := main
-BOARD_MAIN_PARTITION_LIST := system vendor product
+BOARD_MAIN_PARTITION_LIST := system system_ext vendor product
 BOARD_MAIN_SIZE := 9122611200
 
 # Userdata Propertirs
