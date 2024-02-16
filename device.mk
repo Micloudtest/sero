@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/xiaomi/rosemary
+LOCAL_PATH := device/xiaomi/rosemary_p
 
 # Virtual AB
 ENABLE_VIRTUAL_AB := true
