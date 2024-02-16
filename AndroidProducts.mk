@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_rosemary.mk
+     $(LOCAL_DIR)/twrp_rosemary_p.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_rosemary-eng
+    twrp_rosemary_p-eng
