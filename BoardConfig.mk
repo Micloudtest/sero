@@ -45,7 +45,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := mt6785
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := rosemary,secret,maltose
+#TARGET_OTA_ASSERT_DEVICE := rosemary,secret,maltose
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
@@ -172,7 +172,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 TW_INCLUDE_FB2PNG := true
 
 # Config
-TW_DEVICE_VERSION := Rosemary_Tapin™
+#TW_DEVICE_VERSION := Rosemary_Tapin™
 
 # Removes the loop block errors after flashing ZIPs (Workaround) 
 TW_LOOP_DEVICE_ERRORS_TO_LOG := true
