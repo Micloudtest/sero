@@ -38,13 +38,3 @@ Current state of features (from [here](https://twrp.me/faq/OfficialMaintainer.ht
 - [X] screenshot
 - [X] partition SD card
 
-## Building
-
-```bash
-source build/envsetup.sh
-lunch twrp_rosemary-eng
-mka bootimage
-```
-
-> ***NOTE: For OrangeFox/TWRP builds, you can build recovery with [this patch](https://github.com/ItsVixano/android_bootable_recovery/commit/d8f3043a212e15db63ccf76ea0f09a55308e2bdf) if you want to get 60FPS on recovery***
-
