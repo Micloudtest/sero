@@ -90,6 +90,7 @@ BOARD_USES_MTK_HARDWARE := true
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
+BOARD_ROOT_EXTRA_FOLDERS += metadata
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
