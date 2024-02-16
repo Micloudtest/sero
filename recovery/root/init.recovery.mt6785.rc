@@ -81,6 +81,7 @@ on property:twrp.all.users.decrypted=true
     stop gatekeeper-1-0
 
 on boot
+    start variant-script
     start boot-hal-1-2
     start health-hal-2-1
 
