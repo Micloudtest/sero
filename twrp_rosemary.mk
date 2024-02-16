@@ -21,6 +21,6 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := rosemary
 PRODUCT_NAME := twrp_rosemary
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := POCO M5s
+PRODUCT_MODEL := Redmi Note 10s
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_RELEASE_NAME := rosemary
