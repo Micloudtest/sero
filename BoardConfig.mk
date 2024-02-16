@@ -38,14 +38,14 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := rosemary_p
+TARGET_BOOTLOADER_BOARD_NAME := rosemary
 TARGET_NO_BOOTLOADER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6785
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := rosemary_p,rosemary
+TARGET_OTA_ASSERT_DEVICE := rosemary,rosemary_p
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
