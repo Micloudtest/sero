@@ -30,6 +30,13 @@ on post-fs
 on property:ro.crypto.state=encrypted && property:ro.crypto.type=file
     install_keyring
 
+service variant-script /system/bin/variant-script.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
+
 service mtk_plpath_utils_ota.link /system/bin/mtk_plpath_utils_ota
     class main
     user root
