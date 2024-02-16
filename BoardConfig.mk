@@ -4,7 +4,7 @@
 # Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
 #
 
-DEVICE_PATH := device/xiaomi/rosemary_p
+DEVICE_PATH := device/xiaomi/rosemary
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
