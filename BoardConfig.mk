@@ -173,6 +173,8 @@ TW_INCLUDE_FB2PNG := true
 
 # Config
 TW_DEVICE_VERSION := Rosemary_Tapin™
+
+# Removes the loop block errors after flashing ZIPs (Workaround) 
 TW_LOOP_DEVICE_ERRORS_TO_LOG := true
 TW_IGNORE_LOGICAL_MOUNT_ERRORS := true
 
