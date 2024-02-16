@@ -34,7 +34,7 @@ Current state of features (from [here](https://twrp.me/faq/OfficialMaintainer.ht
 - [X] battery level
 - [X] temperature
 - [X] set brightness
-- [X] vibrate
+- [ ] vibrate
 - [X] screenshot
 - [X] partition SD card
 
