@@ -25,6 +25,10 @@ AB_OTA_PARTITIONS += \
     vbmeta_system
 BOARD_USES_RECOVERY_AS_BOOT := true
 
+# Power
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
@@ -152,6 +156,8 @@ TW_NO_HAPTICS := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_LIBRESETPROP := true
+TW_INCLUDE_LPDUMP := true
+TW_INCLUDE_LPTOOLS := true
 
 # TWRP Configuration
 TW_FRAMERATE := 60
