@@ -127,6 +127,9 @@ TARGET_USES_UEFI := true
 # VNDK Treble
 BOARD_VNDK_VERSION := current
 
+# include python, for ABX conversion
+TW_INCLUDE_PYTHON := true
+
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
