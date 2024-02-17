@@ -13,10 +13,6 @@ system      /system     erofs  ro              wait,slotselect,avb=vbmeta_system
 system_ext  /system_ext ext4   ro              wait,slotselect,avb=vbmeta,logical,first_stage_mount,nofail
 system_ext  /system_ext erofs  ro              wait,slotselect,avb=vbmeta,logical,first_stage_mount,nofail
 
-mi_ext      /mi_ext     erofs  ro              wait,slotselect,avb=vbmeta,logical,first_stage_mount,nofail
-mi_ext      /mi_ext     ext4   ro              wait,slotselect,avb=vbmeta,logical,first_stage_mount,nofail
-
-
 vendor      /vendor     ext4   ro              wait,slotselect,avb,logical,first_stage_mount
 vendor      /vendor     erofs  ro              wait,slotselect,avb,logical,first_stage_mount
 
