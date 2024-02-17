@@ -16,8 +16,6 @@ ALLOW_MISSING_DEPENDENCIES := true
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     system \
-    system_ext \
-    mi_ext \
     vendor \
     product \
     boot \
