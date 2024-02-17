@@ -122,6 +122,9 @@ ifneq ($(OF_HIDE_NOTCH),1)
     TW_CUSTOM_BATTERY_POS := "795"
 endif
 
+# System as root	
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+
 # UEFI
 TARGET_USES_UEFI := true
 
