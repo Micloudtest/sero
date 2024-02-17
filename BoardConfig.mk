@@ -17,7 +17,7 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     system \
     system_ext \
-    me_ext \
+    mi_ext \
     vendor \
     product \
     boot \
