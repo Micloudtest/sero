@@ -176,6 +176,11 @@ TW_INCLUDE_FB2PNG := true
 # Config
 TW_DEVICE_VERSION := Rosemary-Tapin™
 
+#OTA
+TW_SUPPORT_ALL_PAYLOAD_OTA_UPDATES := true
+TW_NO_TREBLE_COMPATIBILITY_CHECK := true
+TW_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR := true
+
 # Removes the loop block errors after flashing ZIPs (Workaround) 
 TW_LOOP_DEVICE_ERRORS_TO_LOG := true
 TW_IGNORE_LOGICAL_MOUNT_ERRORS := true
